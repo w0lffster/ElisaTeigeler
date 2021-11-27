@@ -19,7 +19,7 @@ gsap.to(sections, {
     scrub: 1,
     snap: 1 / (sections.length - 1),
     // base vertical scrolling on how wide the container is so it feels more natural.
-    end: "+=7000",
+    end: "+=3500",
   }
 });
 
@@ -27,7 +27,7 @@ gsap.to(sections, {
 window.onscroll = function() {stickLogo()};
 
 var header = document.getElementById("logoHeader");
-var footer = docuemtn.getElementById("logoFooter")
+var footer = document.getElementById("logoFooter")
 
 var sticky = header.offsetTop;
 
