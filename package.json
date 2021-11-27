@@ -1,5 +1,4 @@
 {
-
   "name": "elisateigeler",
   "version": "1.0.0",
   "description": "ElisaTeigeler",
@@ -7,9 +6,7 @@
   "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "clean-source": "rimraf README.md src webroot package.json",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "clean-source": "rimraf README.md src webroot package.json"
   },
   "repository": {
     "type": "git",
