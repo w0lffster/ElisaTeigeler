@@ -17,12 +17,5 @@
   "bugs": {
     "url": "https://github.com/w0lffster/ElisaTeigeler/issues"
   },
-  "homepage": "https://github.com/w0lffster/ElisaTeigeler",
-  "dependencies": {
-    "gsap": "^3.8.0"
-  },
-  "devDependencies": {
-    "gh-pages": "^3.2.3",
-    "gh-pages-deploy": "^0.5.1"
-  }
+  "homepage": "https://github.com/w0lffster/ElisaTeigeler"
 }
