@@ -19,7 +19,7 @@ gsap.to(sections, {
     scrub: 1,
     snap: 1 / (sections.length - 1),
     // base vertical scrolling on how wide the container is so it feels more natural.
-    end: "+=3500",
+    end: "+=7000",
   }
 });
 
@@ -27,14 +27,17 @@ gsap.to(sections, {
 window.onscroll = function() {stickLogo()};
 
 var header = document.getElementById("logoHeader");
+var footer = docuemtn.getElementById("logoFooter")
 
 var sticky = header.offsetTop;
 
 function stickLogo(){
     if(window.pageYOffset > sticky){
         header.classList.add("sticky");
+        footer.classList.add("sticky");
     }
     else{
         header.classList.remove("sticky");
+        fo.classList.remove("sticky");
     }
 }
