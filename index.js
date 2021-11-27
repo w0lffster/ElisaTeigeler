@@ -1,5 +1,5 @@
-import {gsap} from './node_modules/gsap/index.js';
-import { ScrollTrigger } from "./node_modules/gsap/ScrollTrigger.js";
+// import {gsap} from "./node_modules/gsap/index.js";
+// import { ScrollTrigger } from "./node_modules/gsap/ScrollTrigger.js";
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -31,13 +31,14 @@ var footer = document.getElementById("logoFooter")
 
 var sticky = header.offsetTop;
 
+
 function stickLogo(){
     if(window.pageYOffset > sticky){
         header.classList.add("sticky");
-        footer.classList.add("sticky");
+        footer.classList.add("stickyFooter");
     }
     else{
         header.classList.remove("sticky");
-        fo.classList.remove("sticky");
+        footer.classList.remove("stickyFooter");
     }
 }

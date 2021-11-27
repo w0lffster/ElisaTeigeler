@@ -184,4 +184,10 @@ body {
   left: 1vw;
 }
 
+.stickyFooter{
+  position: fixed;
+  top: 95vh;
+  left: 1vw;
+}
+
 
