@@ -1,0 +1,23 @@
+{
+  "name": "elisateigeler",
+  "version": "1.0.0",
+  "description": "ElisaTeigeler",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/w0lffster/ElisaTeigeler.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/w0lffster/ElisaTeigeler/issues"
+  },
+  "homepage": "https://github.com/w0lffster/ElisaTeigeler#readme",
+  "dependencies": {
+    "gsap": "^3.8.0"
+  }
+}
