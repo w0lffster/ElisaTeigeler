@@ -6,6 +6,7 @@ body {
     color: black;
     overflow-x: hidden;
     background-color: black;
+    font-size: 1rem;
   }
   
   .container {
@@ -196,14 +197,14 @@ body {
 
 .sticky{
   position: fixed;
-  top: 1vh;
-  left: 1vw;
+  top: 1%;
+  left: 0.1%;
 }
 
 .stickyFooter{
   position: fixed;
-  top: 95vh;
-  left: 1vw;
+  top: 95%;
+  left: 0.1%;
 }
 
 
