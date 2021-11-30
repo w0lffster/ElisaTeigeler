@@ -19,13 +19,14 @@ body {
   }
 
   .frame{
-    width: 100vw;
-    height: 100vh;
+    width: auto;
+    height: auto;
     display: flex;
     margin: 0;
     text-align: center;
     
   }
+
 
   .one{
     background-color: lightsalmon;
@@ -34,8 +35,8 @@ body {
   }
 
   .one img{
-    width: 35%;
-    height: 75%;
+    max-width: 90vw;
+    max-height: 90vh;
     z-index: -1;
     overflow: hidden;
     margin: auto;
@@ -48,11 +49,11 @@ body {
   }
 
   .two img{
-    width: 70%;
-    height: 100%;
     z-index: -1;
     overflow: hidden;
     margin: auto;
+    max-width: 90vw;
+    max-height: 90vh;
   }
 
   .three{
@@ -62,11 +63,11 @@ body {
   }
 
   .three img{
-    width: 40%;
-    height: 75%;
     z-index: -1;
     overflow: hidden;
     margin: auto;
+    max-width: 90vw;
+    max-height: 90vh;
   }
 
   .four{
@@ -76,11 +77,12 @@ body {
   }
 
   .four img{
-    width: 60%;
-    height: 100%;
+
     z-index: -1;
     overflow: hidden;
     margin: auto;
+    max-width: 90vw;
+    max-height: 90vh;
   }
 
   .five{
@@ -90,11 +92,12 @@ body {
   }
 
   .five img{
-    width: 40%;
-    height: 75%;
+
     z-index: -1;
     overflow: hidden;
     margin: auto;
+    max-width: 90vw;
+    max-height: 90vh;
   }
 
   .six{
@@ -104,11 +107,12 @@ body {
   }
 
   .six img{
-    width: 40%;
-    height: 75%;
+
     z-index: -1;
     overflow: hidden;
     margin: auto;
+    max-width: 90vw;
+    max-height: 90vh;
   }
 
   .seven{
@@ -118,11 +122,12 @@ body {
   }
 
   .seven img{
-    width: 40%;
-    height: 75%;
+
     z-index: -1;
     overflow: hidden;
     margin: auto;
+    max-width: 90vw;
+    max-height: 90vh;
   }
 
   .eight{
@@ -132,11 +137,12 @@ body {
   }
 
   .eight img{
-    width: 50%;
-    height: 75%;
+
     z-index: -1;
     overflow: hidden;
     margin: auto;
+    max-width: 90vw;
+    max-height: 90vh;
   }
 
   .nine{
@@ -146,11 +152,12 @@ body {
   }
 
   .nine img{
-    width: 40%;
-    height: 75%;
+
     z-index: -1;
     overflow: hidden;
     margin: auto;
+    max-width: 90vw;
+    max-height: 90vh;
   }
 
   .ten{
@@ -160,11 +167,12 @@ body {
   }
 
   .ten img{
-    width: 40%;
-    height: 75%;
+
     z-index: -1;
     overflow: hidden;
     margin: auto;
+    max-width: 90vw;
+    max-height: 90vh;
   }
 
   .eleven{
@@ -174,11 +182,12 @@ body {
   }
 
   .eleven img{
-    width: 40%;
-    height: 75%;
+
     z-index: -1;
     overflow: hidden;
     margin: auto;
+    max-width: 90vw;
+    max-height: 90vh;
   }
 
 .header{
@@ -191,8 +200,8 @@ body {
 .footer{
   position:absolute;
   z-index: 1;
-  top: 95vh;
-  left: 1vw;
+  bottom: 1vh;
+  left: 0.1%;
 }
 
 .sticky{
@@ -203,7 +212,7 @@ body {
 
 .stickyFooter{
   position: fixed;
-  top: 95%;
+  bottom: 1vh;
   left: 0.1%;
 }
 
