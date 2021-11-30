@@ -1,219 +1,247 @@
-@import url('https://fonts.googleapis.com/css2?family=Outfit&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Outfit&display=swap");
 
 body {
-    font-family: "Outfit";
-    margin: 0;
-    color: black;
-    overflow-x: hidden;
-    background-color: black;
-    font-size: 1rem;
-  }
-  
-  .container {
-    width: 1100vw;
-    height: 100vh;
-    display: flex;
-    flex-wrap: nowrap;
-    overflow-x: hidden;
+  font-family: "Outfit";
+  margin: 0;
+  color: black;
+  overflow-x: hidden;
+  background-color: black;
+  font-size: 1rem;
+}
 
-  }
+.container {
+  width: 1400vw;
+  height: 100vh;
+  display: flex;
+  flex-wrap: nowrap;
+  overflow-x: hidden;
+}
 
-  .frame{
-    width: auto;
-    height: auto;
-    display: flex;
-    margin: 0;
-    text-align: center;
-    
-  }
+.frame {
+  width: auto;
+  height: auto;
+  display: flex;
+  margin: 0;
+  text-align: center;
+}
 
+.one {
+  background-color: lightsalmon;
+  width: 100vw;
+  height: 100vh;
+}
 
-  .one{
-    background-color: lightsalmon;
-    width: 100vw;
-    height: 100vh;
-  }
+.one img {
+  max-width: 90vw;
+  max-height: 90vh;
+  z-index: -1;
+  overflow: hidden;
+  margin: auto;
+}
 
-  .one img{
-    max-width: 90vw;
-    max-height: 90vh;
-    z-index: -1;
-    overflow: hidden;
-    margin: auto;
-  }
+.two {
+  background-color: #daf9e9;
+  width: 100vw;
+  height: 100vh;
+}
 
-  .two{
-    background-color: #daf9e9;
-    width: 100vw;
-    height: 100vh;
-  }
+.two img {
+  z-index: -1;
+  overflow: hidden;
+  margin: auto;
+  max-width: 90vw;
+  max-height: 90vh;
+}
 
-  .two img{
-    z-index: -1;
-    overflow: hidden;
-    margin: auto;
-    max-width: 90vw;
-    max-height: 90vh;
-  }
+.three {
+  background-color: #aadfb6;
+  width: 100vw;
+  height: 100vh;
+}
 
-  .three{
-    background-color: #aadfb6;
-    width: 100vw;
-    height: 100vh;
-  }
+.three img {
+  z-index: -1;
+  overflow: hidden;
+  margin: auto;
+  max-width: 90vw;
+  max-height: 90vh;
+}
 
-  .three img{
-    z-index: -1;
-    overflow: hidden;
-    margin: auto;
-    max-width: 90vw;
-    max-height: 90vh;
-  }
+.four {
+  background-color: #e4a88f;
+  width: 100vw;
+  height: 100vh;
+}
 
-  .four{
-    background-color: #e4a88f;
-    width: 100vw;
-    height: 100vh;
-  }
+.four img {
+  z-index: -1;
+  overflow: hidden;
+  margin: auto;
+  max-width: 90vw;
+  max-height: 90vh;
+}
 
-  .four img{
+.five {
+  background-color: #4c625d;
+  width: 100vw;
+  height: 100vh;
+}
 
-    z-index: -1;
-    overflow: hidden;
-    margin: auto;
-    max-width: 90vw;
-    max-height: 90vh;
-  }
+.five img {
+  z-index: -1;
+  overflow: hidden;
+  margin: auto;
+  max-width: 90vw;
+  max-height: 90vh;
+}
 
-  .five{
-    background-color: #4c625d;
-    width: 100vw;
-    height: 100vh;
-  }
+.six {
+  background-color: #598d91;
+  width: 100vw;
+  height: 100vh;
+}
 
-  .five img{
+.six img {
+  z-index: -1;
+  overflow: hidden;
+  margin: auto;
+  max-width: 90vw;
+  max-height: 90vh;
+}
 
-    z-index: -1;
-    overflow: hidden;
-    margin: auto;
-    max-width: 90vw;
-    max-height: 90vh;
-  }
+.seven {
+  background-color: #ec6e7a;
+  width: 100vw;
+  height: 100vh;
+}
 
-  .six{
-    background-color: #598d91;
-    width: 100vw;
-    height: 100vh;
-  }
+.seven img {
+  z-index: -1;
+  overflow: hidden;
+  margin: auto;
+  max-width: 90vw;
+  max-height: 90vh;
+}
 
-  .six img{
+.eight {
+  background-color: #240722;
+  width: 100vw;
+  height: 100vh;
+}
 
-    z-index: -1;
-    overflow: hidden;
-    margin: auto;
-    max-width: 90vw;
-    max-height: 90vh;
-  }
+.eight img {
+  z-index: -1;
+  overflow: hidden;
+  margin: auto;
+  max-width: 90vw;
+  max-height: 90vh;
+}
 
-  .seven{
-    background-color: #ec6e7a;
-    width: 100vw;
-    height: 100vh;
-  }
+.nine {
+  background-color: #120522;
+  width: 100vw;
+  height: 100vh;
+}
 
-  .seven img{
+.nine img {
+  z-index: -1;
+  overflow: hidden;
+  margin: auto;
+  max-width: 90vw;
+  max-height: 90vh;
+}
 
-    z-index: -1;
-    overflow: hidden;
-    margin: auto;
-    max-width: 90vw;
-    max-height: 90vh;
-  }
+.ten {
+  background-color: #89f1fe;
+  width: 100vw;
+  height: 100vh;
+}
 
-  .eight{
-    background-color: #5c5e70;
-    width: 100vw;
-    height: 100vh;
-  }
+.ten img {
+  z-index: -1;
+  overflow: hidden;
+  margin: auto;
+  max-width: 90vw;
+  max-height: 90vh;
+}
 
-  .eight img{
+.eleven {
+  background-color: #251216;
+  width: 100vw;
+  height: 100vh;
+}
 
-    z-index: -1;
-    overflow: hidden;
-    margin: auto;
-    max-width: 90vw;
-    max-height: 90vh;
-  }
+.eleven img {
+  z-index: -1;
+  overflow: hidden;
+  margin: auto;
+  max-width: 90vw;
+  max-height: 90vh;
+}
 
-  .nine{
-    background-color: #171717;
-    width: 100vw;
-    height: 100vh;
-  }
+.twelve {
+  background-color: #178764;
+  width: 100vw;
+  height: 100vh;
+}
 
-  .nine img{
+.twelve img {
+  z-index: -1;
+  overflow: hidden;
+  margin: auto;
+  max-width: 90vw;
+  max-height: 90vh;
+}
 
-    z-index: -1;
-    overflow: hidden;
-    margin: auto;
-    max-width: 90vw;
-    max-height: 90vh;
-  }
+.thirteen {
+  background-color: #a152e2;
+  width: 100vw;
+  height: 100vh;
+}
 
-  .ten{
-    background-color: #251216;
-    width: 100vw;
-    height: 100vh;
-  }
+.thirteen img {
+  z-index: -1;
+  overflow: hidden;
+  margin: auto;
+  max-width: 90vw;
+  max-height: 90vh;
+}
 
-  .ten img{
+.fourteen {
+  background-color: #63f6d8;
+  width: 100vw;
+  height: 100vh;
+}
 
-    z-index: -1;
-    overflow: hidden;
-    margin: auto;
-    max-width: 90vw;
-    max-height: 90vh;
-  }
-
-  .eleven{
-    background-color: #251216;
-    width: 100vw;
-    height: 100vh;
-  }
-
-  .eleven img{
-
-    z-index: -1;
-    overflow: hidden;
-    margin: auto;
-    max-width: 90vw;
-    max-height: 90vh;
-  }
-
-.header{
-  position:absolute;
+.fourteen img {
+  z-index: -1;
+  overflow: hidden;
+  margin: auto;
+  max-width: 90vw;
+  max-height: 90vh;
+}
+.header {
+  position: absolute;
   z-index: 1;
   top: 1vh;
   left: 1vw;
 }
 
-.footer{
-  position:absolute;
+.footer {
+  position: absolute;
   z-index: 1;
   bottom: 1vh;
   left: 0.1%;
 }
 
-.sticky{
+.sticky {
   position: fixed;
   top: 1%;
   left: 0.1%;
 }
 
-.stickyFooter{
+.stickyFooter {
   position: fixed;
   bottom: 1vh;
   left: 0.1%;
 }
-
-
